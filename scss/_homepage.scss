@@ -1,0 +1,11 @@
+.home {
+    height: 95vh;
+    background-image: linear-gradient(to right, rgba($primary, 0.9),
+     rgba($secondary, 0.8)), url('images/kpl.png');
+//	background-attachment: fixed;
+ 	background-size: cover;
+	clip-path: polygon(0 0, 100% 0%, 100% 75vh, 0% 100%);
+	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 75vh, 0% 100%);
+	-mozkit-clip-path: polygon(0 0, 100% 0%, 100% 75vh, 0% 100%);
+	
+}
